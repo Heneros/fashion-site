@@ -1,5 +1,11 @@
 @import '../style.less';
-
+.min-max(@min-width, @max-width, @padding) {
+  min-width: @min-width;
+  max-width: @max-width;
+  padding: 0 @padding;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
 //use http://www.font2web.com to generate all font formats
 .add-font(@font-url, @font-name, @weight: normal, @style: normal) {
   font-family: @font-name;
