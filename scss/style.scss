@@ -1,0 +1,30 @@
+@import "components/mixins";
+@import "components/base";
+@import "components/variables";
+@import "components/fonts";
+
+///Blocks 
+@import "blocks/top";
+@import "blocks/menu";
+@import "blocks/icons";
+@import "blocks/slider";
+@import "blocks/categories";
+@import "blocks/content";
+@import "blocks/offers";
+@import "blocks/banner";
+@import "blocks/products";
+@import "blocks/featured";
+@import "blocks/blog";
+@import "blocks/links";
+@import "blocks/footer";
+
+
+@import (inline)"components/normalize.css";
+
+
+
+//adaptive 
+@import "components/interface";
+
+
+
