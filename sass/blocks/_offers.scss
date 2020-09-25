@@ -29,8 +29,13 @@
 		}
 		a{
 			@include btn();
-			// margin-top: 40px;
 		}
+	}
+	.first__offer{
+		img{
+			max-width:350px
+		}
+			
 	}
 	.offers__info{
 		position: absolute;

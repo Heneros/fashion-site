@@ -1,5 +1,4 @@
 .slider {
-  // background: linear-gradient(90deg, #cdced2, #c5c6ca);
   background: linear-gradient(90deg,#fff,#fff);
   border-bottom: 1px solid black;
   .slider__item {
@@ -33,7 +32,7 @@
     }
 
     .slider__title {
-      font-size: 116px;
+      font-size: 105px;
       line-height: 107px;
       font-weight: 600;
       color: black;
@@ -190,6 +189,6 @@
     }
   }
 }
-.owl-carousel.owl-drag .owl-item {
-  top: 120px !important;
-}
+// .owl-carousel.owl-drag .owl-item {
+//   top: 120px !important;
+// }
