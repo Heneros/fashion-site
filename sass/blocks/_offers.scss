@@ -7,11 +7,16 @@
 		flex-direction: column;
 		justify-content: space-between;
 	}
+	.offers__center{
+		img{
+			min-width: 450px;
+		}
+	}
 	.offers__element{
 		position: relative;
 		img{
-			display: block;
-			max-width: 100%;
+			// display: block;
+			// max-width: 100%;
 		}
 		.offers__category{
 			font-size: 13px;
@@ -32,10 +37,21 @@
 		}
 	}
 	.first__offer{
+		// margin-bottom: 35px;
 		img{
-			max-width:350px
+			max-width: 250px;
 		}
+		.offers__info{
+			.offers__two-get{
+				color: #fff;
+			 }
+		} 
 			
+	}
+	.second__offer{
+		img{
+			max-width:250px
+		}	
 	}
 	.offers__info{
 		position: absolute;
@@ -87,10 +103,13 @@
 		}
 	}
 	.offers__right{
+
 		.offers__info{
 			top: 50px;
 		}
+	
 	}
+	
 	.offers__element--glasses{
    .offers__info{
    	left: 0;

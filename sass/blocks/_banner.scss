@@ -1,7 +1,7 @@
 .banner{
-	background: url('../../img/banner1.jpg') left center no-repeat #00b7d9;
+	background: url('../../img/1/9.jpg') left center no-repeat #00b7d9;
   background-size: cover ;
-  margin: 25px 0;
+  margin: 25px 0; 
   padding: 45px 0;
   display: flex;
   justify-content: flex-end;
@@ -18,7 +18,7 @@
   	text-transform: uppercase;
   }
   p{
-  	color: $offers-color;
+  	color: #fff;
   	margin: 15px 0;
   	font-size: 14px;
   	line-height: 20px;
@@ -41,7 +41,7 @@
   }
 }
 .banner{
-  background: url('../../img/banner2.jpg') left center no-repeat #d7dbd5;
+  background: url('../../img/1/9.jpg') left center no-repeat #d7dbd5;
   background-size: cover ;
   justify-content: flex-start;
     .banner__information{
