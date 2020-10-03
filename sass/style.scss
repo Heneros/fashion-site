@@ -1,9 +1,12 @@
 @charset "UTF-8";  
-                  
-                    
-@import "mixins";          
-@import "base";        
-@import "variables";          
+                   
+                     
+@import "mixins";                     
+@import "base";          
+@import "variables";    
+@import "reset"; 
+@import "fonts"; 
+
 ///Blocks                
 @import "blocks/top";  
 @import "blocks/menu";
@@ -26,3 +29,4 @@
 
 
 
+ 

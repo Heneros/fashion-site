@@ -1,12 +1,9 @@
-.categories{
-
-	ul {	
+.categories{	
 	    margin-bottom: 100px;
 		display: flex;
 		justify-content: center;
-		flex-wrap: wrap;
+		align-items: center;
 		list-style: none;
-
 		li{
 			margin: 10px 25px;
 			
@@ -18,7 +15,7 @@
 			}
 			background: #000000;
 		  }
-	}
+
 	a{
 		color: $gray;
 		text-decoration: none;

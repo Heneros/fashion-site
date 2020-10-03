@@ -62,7 +62,7 @@ $(document).ready(function () {
   const elm = document.querySelector(".offers");
   const iso = new Isotope(elm, {
       itemSelector: ".offers__element",
-      filter: '.popular'
+      filter: '.all'
   });
   
   const controlls = document.querySelectorAll(".filter__link");

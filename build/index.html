@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.5 maximum-scale=2.0">
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
 </head>
 <body>
   <div class="container">
@@ -91,77 +90,86 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="wrap content">
-      <div class="categories">
-        <ul>
-          <li class="filter__item filter__item--active">
-            <a href="#!" data-filter="all" class="filter__link" >All</a>
-          </li>
-          <li class="filter__item">
-            <a href="#!" data-filter="spring-autumn"  class="filter__link">spring-autumn</a>
-          </li>
-          <li class="filter__item">
-            <a href="#!" data-filter="men"  class="filter__link">men</a>
-          </li>
-          <li class="filter__item">
-            <a href="#!" data-filter="women"  class="filter__link">women</a>
-          </li>
-          <li class="filter__item">
-            <a href="#!" data-filter="sell-out"  class="filter__link">sell-out</a>
-          </li>
-        </ul>
+    </div> <!---slider ends-->
+
+      <!---Product section-->
+      <div class="wrap">
+        <div class="container">
+          <section class="content">
+            <ul class="categories">
+              <li class="filter__item filter__item--active">
+                <a href="#!" data-filter="all" class="filter__link" >All</a>
+              </li>
+              <li class="filter__item">
+                <a href="#!" data-filter="spring-autumn"  class="filter__link">spring-autumn</a>
+              </li>
+              <li class="filter__item">
+                <a href="#!" data-filter="men"  class="filter__link">men</a>
+              </li>
+              <li class="filter__item">
+                <a href="#!" data-filter="women"  class="filter__link">women</a>
+              </li>
+              <li class="filter__item">
+                <a href="#!" data-filter="sell-out"  class="filter__link">sell-out</a>
+              </li>
+            </ul>
+            <div class="container">
+              <ul class="offers">
+                <div class="offers__left">
+                  <li class="offers__element men all sell-out spring-autumn first__offer">
+                    <img src="img/1/4.jpg" alt="">
+                    <div class="offers__info">
+                      <p class="offers__two-get">BUY 2 GET<br>UP 50% OFF</p>
+                    </div> <!--desc offer-->
+                  </li>
+                </div>
+                <li class="offers__element men  all spring-autumn second__offer">
+                  <img src="img/1/5.jpg" alt="">
+                </li> 
+                <div class="offers__center">
+                  <li class="offers__element women spring-autumn all">
+                    <img src="img/1/6.jpg" alt="">
+                    <div class="offers__info">
+                      <p class="offers__category">Spring Jacket</p>
+                      <p class="offers__name">VINTAGE LOOK<br>FOR WOMEN</p>
+                      <a href="#">Shop now</a>
+                    </div>
+                    <span class="offers__new">New</span>
+                  </li>
+                </div>
+                <div class="offers__right">
+                  <li class="offers__element all men spring-autumn third__element">
+                    <img src="img/1/8.jpg" alt="">
+                    <div class="offers__info">
+                      <p class="offers__category">Autumn Jacket</p>
+                      <p class="offers__name">Fashion<br>for MEN</p>
+                      <a href="#">Shop now</a>
+                    </div>
+                  </li>
+                  <div class="offers__element all sell-out offers__element--glasses">
+                    <img src="img/offer5.jpg" alt="">
+                    <div class="offers__infoglass">
+                      <p>40% off on sunglasses</p>
+                    </div>
+                    <span class="offers__new">New</span>
+                  </div>
+                </div>
+              </ul>
+           </div>
+          </section>
+        </div>
       </div>
-      <ul class="offers">
-        <div class="offers__left">
-          <li class="offers__element men all sell-out spring-autumn first__offer">
-            <img src="img/1/4.jpg" alt="">
-            <div class="offers__info">
-              <p class="offers__two-get">BUY 2 GET<br>UP 50% OFF</p>
-            </div> <!--desc offer-->
-          </li>
-    
-        </div>
-        <li class="offers__element men  all spring-autumn second__offer">
-          <img src="img/1/5.jpg" alt="">
-        </li> 
-        <div class="offers__center">
-          <li class="offers__element women spring-autumn all">
-            <img src="img/1/6.jpg" alt="">
-            <div class="offers__info">
-              <p class="offers__category">Spring Jacket</p>
-              <p class="offers__name">VINTAGE LOOK<br>FOR WOMEN</p>
-              <a href="#">Shop now</a>
-            </div>
-            <span class="offers__new">New</span>
-          </li>
-        </div>
-        <div class="offers__right">
-          <li class="offers__element all men spring-autumn third__element">
-            <img src="img/1/8.jpg" alt="">
-            <div class="offers__info">
-              <p class="offers__category">Autumn Jacket</p>
-              <p class="offers__name">Fashion<br>for MEN</p>
-              <a href="#">Shop now</a>
-            </div>
-          </li>
-          <li class="offers__element all sell-out offers__element--glasses">
-            <img src="img/offer5.jpg" alt="">
-            <div class="offers__info">
-              <p>40% off on sunglasses</p>
-            </div>
-            <span class="offers__new">New</span>
-          </li>
-        </div>
-      </ul>
+
       <!--offers block ends--->
-      <div class="banner">
+    <div class="wrap">
+      <section class="banner">
         <div class="banner__information">
           <p class="banner__title">WE OFFER BRAND NEW STYLES</p>
           <p>SIGN UP NOW AND GET 50% OFF</p>
           <a href="#">SEE FULL COLLECTION</a>
         </div>
       </div>
+      <div class="wrap">
       <div class="products">
         <p class="products__title">Product Types</p>
         <p>up to 30% discount</p>
@@ -180,7 +188,9 @@
           </div>
         </div>
       </div>
-  
+      </section>
+    </div>
+  <div class="wrap">
     <div class="featured">
         <p class="featured__title">featured products</p>
         <div class="categories">
@@ -263,6 +273,8 @@
         </div>
         <a class="featured__btn" href="#">Show more</a>
       </div>
+    </div>
+    <div class="wrap">
     <div class="banner banner--left">
         <div class="banner__information">
           <p class="banner__title">subscribe to our newsletter</p>
@@ -294,6 +306,7 @@
         </div>
       </div>
     </div>
+  </div>
     <div class="links">
       <div class="links__wrap wrap">
         <div class="links__element">
