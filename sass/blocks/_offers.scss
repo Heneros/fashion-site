@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	margin: 50px 0 25px;
+	list-style: none;
 	.offers__left, .offers__right{
 		display: flex;
 		flex-direction: column;
@@ -14,10 +15,6 @@
 	}
 	.offers__element{
 		position: relative;
-		img{
-			// display: block;
-			// max-width: 100%;
-		}
 		.offers__category{
 			font-size: 13px;
 			line-height: 36px;

@@ -1,12 +1,11 @@
 @charset "UTF-8";  
-           
-               
-@import "mixins";    
-@import "base";  
-@import "variables";      
-                           
-///Blocks       
-@import "blocks/top"; 
+                  
+                    
+@import "mixins";          
+@import "base";        
+@import "variables";          
+///Blocks                
+@import "blocks/top";  
 @import "blocks/menu";
 @import "blocks/icons";
 @import "blocks/slider"; 

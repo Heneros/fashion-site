@@ -1,12 +1,23 @@
 .categories{
-	margin: 40px 0;
-	ul{
+
+	ul {	
+	    margin-bottom: 100px;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-	}
-	li{
-		margin: 10px 25px;
+		list-style: none;
+
+		li{
+			margin: 10px 25px;
+			
+
+		}
+		.filter__item--active{
+			a{
+				color: #fff;
+			}
+			background: #000000;
+		  }
 	}
 	a{
 		color: $gray;
@@ -16,7 +27,8 @@
 		letter-spacing: 1.9px;
 		border-bottom: 1px solid transparent;
 		display: inline-block;
-		font-weight: 600;
+		font-weight: 600; 
+		padding: 5px;
 		&:hover{
 			border-bottom-color: $gray;
 		}
