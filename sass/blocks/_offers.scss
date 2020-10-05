@@ -80,17 +80,17 @@
 		}
 	}
 	.offers__center{  
-	  width: 400px;
-	  height: 350px;
+	//   width: 400px;
+	//   height: 350px;
 		.offers__info{
 			top: 105px;
 		}
 		img {
 			max-width: 450px;
-			max-height: 450px;
+			// max-height: 450px;
 		}
 		 .offers__new{
-			right: -43px;
+			right: -144px;
 		}
 	}
 	.offers__left{
@@ -105,8 +105,11 @@
 			text-transform: uppercase;
 			letter-spacing: 1.65px;
 			font-weight: 700;
-			color: $offers-color;
 			margin: 0;
+			color: #fff;
+			background: black;
+			border-radius: 6px;
+			max-width: 247px;
 		}
 	}
 	.offers__right{
@@ -135,89 +138,86 @@
 	}
 }
 
-@media (max-width: 1024px) {
+// offers__element
+@media (max-width: 1095px) {
 
   .offers {
-    flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
-    .offers__right {
-      flex-basis: 100%;
-      display: block;
+	.offers__element{
 
-      .offers__element {
-        max-width: 371px;
-        margin: 20px auto;
-      }
-
-    }
-
-    .offers__center {
-      margin: 0;
-    }
+		max-width: 100%;
+		img {
+			max-width: 100%;
+		}
+	}
 
   }
-
+  .offers .offers__center .offers__new {
+    right: 0;
+}
 }
 
-@media (max-width: 800px) {
+// @media (max-width: 800px) {
 
-  .offers {
+//   .offers {
 
-    .offers__left {
-      flex-basis: 100%;
-      display: block;
+//     .offers__left {
+//       flex-basis: 100%;
+//       display: block;
 
-      .offers__element {
-        max-width: 277px;
-        margin: 20px auto;
-      }
+//       .offers__element {
+//         max-width: 277px;
+//         margin: 20px auto;
+//       }
 
-    }
+//     }
 
-    .offers__center {
-      flex-basis: 100%;
-      display: block;
+//     .offers__center {
+//       flex-basis: 100%;
+//       display: block;
 
-      .offers__element {
-        max-width: 470px;
-        margin: 0px auto;
-      }
+//       .offers__element {
+//         max-width: 470px;
+//         margin: 0px auto;
+//       }
 
-    }
+//     }
 
-  }
+//   }
 
-}
+// }
 
-@media (max-width: 768px) {
+// @media (max-width: 768px) {
 
-  .offers {
-    margin: 25px 0;
+//   .offers {
+//     margin: 25px 0;
 
-    .offers__center {
+//     .offers__center {
 
-      .offers__info {
-        top: 50px;
-      }
+//       .offers__info {
+//         top: 50px;
+//       }
 
-    }
+//     }
 
-    .offers__right {
+//     .offers__right {
 
-      .offers__info {
-        top: 15px;
-      }
+//       .offers__info {
+//         top: 15px;
+//       }
 
-    }
+//     }
 
-    .offers__element--glasses {
+//     .offers__element--glasses {
 
-      .offers__info {
-        top: auto;
-      }
+//       .offers__info {
+//         top: auto;
+//       }
 
-    }
+//     }
 
-  }
+//   }
 
-}
+// }
