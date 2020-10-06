@@ -1,21 +1,19 @@
 .categories{	
-	    margin-bottom: 100px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		list-style: none;
-		li{
-			margin: 10px 25px;
-			
-
-		}
+ul {
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	li{
+		margin: 10px 25px;
+       } 
 		.filter__item--active{
 			a{
 				color: #fff;
 			}
 			background: #000000;
 		  }
-
 	a{
 		color: $gray;
 		text-decoration: none;
@@ -30,6 +28,7 @@
 			border-bottom-color: $gray;
 		}
 	}
+ }
 }
 @media(max-width: 768px){
 	.categories{
@@ -42,3 +41,17 @@
 		}
 	}
 }
+
+@media(max-width: 590px){
+    .categories{
+      ul{
+        display: flex;
+        justify-content: center;
+		flex-direction: column;
+		a{
+			font-size: 15px;
+		}
+      }
+    }
+
+  }

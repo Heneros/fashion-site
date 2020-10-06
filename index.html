@@ -5,6 +5,22 @@
 	<title> Style Shop || BEST quality product and unique design </title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.5 maximum-scale=2.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,16 +38,17 @@
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Shop</a>
+              <a href="#shop">Shop</a>
             </li>
             <li>
-              <a href="#">Women</a>
+              <a href="#product-types">Product Type</a>
             </li>
             <li>
-              <a href="#">Men</a>
+              <a href="#featured-products">Featured Product</a>
             </li>
             <li>
-              <a href="#">Find stores</a>
+              <a href="#our-blog">OUR BLOGS & NEWS
+              </a>
             </li>
           </ul>
         </div>
@@ -95,8 +112,9 @@
       <!---Product section-->
       <div class="wrap">
         <div class="container">
-          <section class="content">
-            <ul class="categories">
+          <section class="content" id="shop">
+            <div class="categories">
+            <ul>
               <li class="filter__item filter__item--active">
                 <a href="#!" data-filter="all" class="filter__link" >All</a>
               </li>
@@ -113,6 +131,7 @@
                 <a href="#!" data-filter="sell-out"  class="filter__link">sell-out</a>
               </li>
             </ul>
+          </div>
             <div class="container">
               <ul class="offers">
                 <li class="offers__left">
@@ -172,7 +191,7 @@
       </div>
       <div class="wrap">
       <div class="products">
-        <p class="products__title">Product Types</p>
+        <p class="products__title" id="product-types">Product Types</p>
         <p>up to 30% discount</p>
         <div class="products__block">
           <div class="products__element">
@@ -193,9 +212,10 @@
   </div>
     </div>
   <div class="wrap">
-    <div class="featured">
+    <div class="featured" id="featured-products">
         <p class="featured__title">featured products</p>
-          <ul class="categories">
+        <div class="featured__categories">
+          <ul>
             <li>
               <a href="#!">All</a>
             </li>
@@ -215,6 +235,7 @@
               <a href="#!">outdoor</a>
             </li>
           </ul>
+        </div>
         <div class="featured__block carousel owl-carousel owl-theme">
           <div class="featured__element">
             <img src="img/featured1.jpg" alt="">
@@ -282,7 +303,7 @@
           <a href="#">SIGN UP NOW</a>
         </div>
       </div>
-         <div class="blog">
+         <div class="blog" id="our-blog">
         <p class="blog__title"> our blogs & news</p>
         <div class="blog__block">
           <div class="blog__element">
